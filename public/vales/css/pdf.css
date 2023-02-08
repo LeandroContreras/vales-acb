@@ -1,0 +1,68 @@
+#padre{
+    text-align: center;
+}
+#hijo{
+   border-radius:5px;
+   margin-top: 0 auto;
+   transform: translateX(50%);
+}
+#otrohijo{
+    border-radius:5px;
+    margin-top: 0 auto;
+    transform: translateX(50%);
+}
+#info{
+    border-radius: 5px;
+    background-color: rgb(226, 181, 33, 0.781)
+}
+#talon{
+    border-radius: 20px;
+    transform: translateX(40%);
+}
+#talon2{
+    transform: translateY(70%);
+    border-radius: 10px;
+    width: 40%;
+    height: 80%;
+}
+#nieto1{
+    transform: translateY(-40%);
+    border-radius: 10px;
+}
+#nieto2{
+    transform: translateY(-60%);
+    border-radius: 10px;
+}
+#tio1{
+    transform: translateY(-25%);
+}
+#modo{
+    width: 94%;
+    height: 50px;
+    border-radius: 10px;
+    transform: translate(3%,-90%);   
+}
+#tio2{
+    width: 390px;
+    height: 50px;
+    transform: translateY(-70%);
+}
+#nieto3{
+    transform: translateY(-50%);
+    border-radius:10px ;
+}
+#tio3{
+    width: 390px;
+    height: 50px;
+    transform: translateY(-60%);
+}
+#nieto4{
+    transform: translateY(-50%);
+    border-radius: 10px ;
+}
+#modo1{
+    width: 170px;
+    height: 100px;
+    transform: translate(-72%,-20%);
+    border-radius: 15px;
+}
