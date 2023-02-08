@@ -198,7 +198,7 @@ class ValeController extends Controller
                     'fechacc'=>$data['fechacc'],
                     'user_id'=>Auth::user()->id,
                     'desdeax'=>$hoja1a,
-                    'desdeay'=>$hoja1b,
+                    'hastaay'=>$hoja1b,
                     ]);
                     $cont=0;
                     $suma= $data['importeuni'];
@@ -239,7 +239,7 @@ class ValeController extends Controller
                         'fechacc'=>$data['fechacc'],
                         'user_id'=>Auth::user()->id,
                         'desdeax'=>$hoja1a,
-                        'desdeay'=>$hoja1b,
+                        'hastaay'=>$hoja1b,
                         'desdebx'=>$hoja2a,
                         'hastaby'=>$hoja2b,
                         ]);
@@ -284,7 +284,7 @@ class ValeController extends Controller
                     'fechacc'=>$data['fechacc'],
                     'user_id'=>Auth::user()->id,
                     'desdeax'=>$hoja1a,
-                    'desdeay'=>$hoja1b,
+                    'hastaay'=>$hoja1b,
                     'desdebx'=>$hoja2a,
                     'hastaby'=>$hoja2b,
                     'desdecx'=>$hoja3a,
@@ -333,7 +333,7 @@ class ValeController extends Controller
                         'fechacc'=>$data['fechacc'],
                         'user_id'=>Auth::user()->id,
                         'desdeax'=>$hoja1a,
-                        'desdeay'=>$hoja1b,
+                        'hastaay'=>$hoja1b,
                         'desdebx'=>$hoja2a,
                         'hastaby'=>$hoja2b,
                         'desdecx'=>$hoja3a,
@@ -386,7 +386,7 @@ class ValeController extends Controller
                             'fechacc'=>$data['fechacc'],
                             'user_id'=>Auth::user()->id,
                             'desdeax'=>$hoja1a,
-                            'desdeay'=>$hoja1b,
+                            'hastaay'=>$hoja1b,
                             'desdebx'=>$hoja2a,
                             'hastaby'=>$hoja2b,
                             'desdecx'=>$hoja3a,

@@ -110,7 +110,7 @@
     }
 </style>
 <body>
-    @for ($i=$vale->desdeax  ; $i <= $vale->desdeay; $i++)    
+    @for ($i=$vale->desdeax  ; $i <= $vale->hastaay; $i++)    
     <table style="border:solid; border-radius:7px; border-style:dashed">   
         <tr>
           <th><table style="border-collapse: collaspse; border-spacing: 0px 0px;">
